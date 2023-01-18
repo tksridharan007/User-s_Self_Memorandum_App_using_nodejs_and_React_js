@@ -27,9 +27,7 @@ Install mongodb - 5.0.12. Follow the steps form the below reference document bas
 # 5. Edit project settings
 
      #open .env file
-
      #Edit Database configurations with your mongodb configurations.
-
      #Search for DATABASES section.
 
      MONGO_URI=mongodb://127.0.0.1:27017/notezipperDB
@@ -43,10 +41,10 @@ Install mongodb - 5.0.12. Follow the steps form the below reference document bas
 # 7. Run the server
     #Make migrations
         1.cd backend 
-          --node server.js
+            node server.js
 
         2.cd frontend
-          --npm start
+            npm start
 
 # 8. URLs
        Login 
