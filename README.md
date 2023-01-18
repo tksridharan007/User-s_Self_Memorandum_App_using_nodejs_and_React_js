@@ -12,7 +12,7 @@ Install python-3.7.2 and python-pip. Follow the steps from the below reference d
 # 2. Install Mongo db
 Install mongodb - 5.0.12. Follow the steps form the below reference document based on your System Requirements. Reference: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
 
-# 3. Install requirements
+# 3. Installation process
 
      cd frontend
       1. npx create-react-app my-app
