@@ -8,6 +8,7 @@ Keeping notes is generally a to maintain in the forefront of one's awareness.
 
 # 1. Install Python
 Install python-3.7.2 and python-pip. Follow the steps from the below reference document based on your System Requirements. Reference: https://docs.python-guide.org/starting/installation/
+
 # 2. Install Mongo db
 Install mysql-8.0.15. Follow the steps form the below reference document based on your System Requirements. Reference: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
 
