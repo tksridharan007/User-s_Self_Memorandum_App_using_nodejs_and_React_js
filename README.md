@@ -13,18 +13,20 @@ Install python-3.7.2 and python-pip. Follow the steps from the below reference d
 Install mysql-8.0.15. Follow the steps form the below reference document based on your System Requirements. Reference: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
 
 # 3. Install requirements
+
 cd frontend
 1. npx create-react-app my-app
 2. npm install
+
 cd backend
 node install
 
 # 4. Create Database in Mongodb
-create database in mongodb by using the database name Note Zipper;
+Create database in mongodb by using the database name Note Zipper;
 
 # 5. Edit project settings
-#open .env file
 
+#open .env file
 #Edit Database configurations with your mongodb configurations.
 #Search for DATABASES section.
 
@@ -39,9 +41,10 @@ PORT=3000
 # 7. Run the server
 #Make migrations
 1.cd backend 
-node server.js
+--node server.js
+
 2.cd frontend
-npm start
+--npm start
 
 # 8. URLs
 Login 
