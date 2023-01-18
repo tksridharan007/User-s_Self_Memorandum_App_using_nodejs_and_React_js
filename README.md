@@ -27,16 +27,18 @@ Create database in mongodb by using the database name Note Zipper;
 # 5. Edit project settings
 
 #open .env file
+
 #Edit Database configurations with your mongodb configurations.
+
 #Search for DATABASES section.
 
-MONGO_URI=mongodb://127.0.0.1:27017/notezipperDB
-JWT_SECRET=somesecret
-NODE_ENV=newuser
-PORT=3000
+     MONGO_URI=mongodb://127.0.0.1:27017/notezipperDB
+     JWT_SECRET=somesecret
+     NODE_ENV=newuser
+     PORT=3000
 
 # 6. save the file
-     cltr+s
+     clt+s
      
 # 7. Run the server
 #Make migrations
