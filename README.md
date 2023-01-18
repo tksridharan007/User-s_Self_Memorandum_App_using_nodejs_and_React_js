@@ -36,7 +36,7 @@ Install mongodb - 5.0.12. Follow the steps form the below reference document bas
      PORT=3000
 
 # 6. save the file
-     clt+s
+         ctrl+s
      
 # 7. Run the server
     #Make migrations
