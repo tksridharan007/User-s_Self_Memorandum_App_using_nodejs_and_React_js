@@ -10,27 +10,27 @@ Keeping notes is generally a to maintain in the forefront of one's awareness.
 Install python-3.7.2 and python-pip. Follow the steps from the below reference document based on your System Requirements. Reference: https://docs.python-guide.org/starting/installation/
 
 # 2. Install Mongo db
-Install mysql-8.0.15. Follow the steps form the below reference document based on your System Requirements. Reference: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+Install mongodb - 5.0.12. Follow the steps form the below reference document based on your System Requirements. Reference: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
 
 # 3. Install requirements
 
-cd frontend
-1. npx create-react-app my-app
-2. npm install
+     cd frontend
+      1. npx create-react-app my-app
+      2. npm install
 
-cd backend
-node install
+    cd backend
+       1. node install
 
 # 4. Create Database in Mongodb
-Create database in mongodb by using the database name Note Zipper;
+          Create database in mongodb by using the database name Note Zipper;
 
 # 5. Edit project settings
 
-#open .env file
+     #open .env file
 
-#Edit Database configurations with your mongodb configurations.
+     #Edit Database configurations with your mongodb configurations.
 
-#Search for DATABASES section.
+     #Search for DATABASES section.
 
      MONGO_URI=mongodb://127.0.0.1:27017/notezipperDB
      JWT_SECRET=somesecret
@@ -41,14 +41,14 @@ Create database in mongodb by using the database name Note Zipper;
      clt+s
      
 # 7. Run the server
-#Make migrations
-1.cd backend 
---node server.js
+    #Make migrations
+        1.cd backend 
+          --node server.js
 
-2.cd frontend
---npm start
+        2.cd frontend
+          --npm start
 
 # 8. URLs
-Login 
+       Login 
 ![image](https://user-images.githubusercontent.com/82249340/213255691-c6fdab27-933a-4f2f-a879-37ac8cd12681.png)
 
