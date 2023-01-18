@@ -1,6 +1,6 @@
 # User's_Self_Memorandum_App_using_nodejs_and_React_js
 
-Keeping notes is generally a to maintain in the forefront of one's awareness.
+Keeping notes is generally to maintain in the forefront of one's awareness.
 
 # Installation
 
